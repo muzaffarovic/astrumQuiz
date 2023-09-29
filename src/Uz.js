@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-import Start from './components/Start';
-import Question from './components/Question';
-import End from './components/End';
-import Modal from './components/Modal';
-import quizData from './data/quiz.json';
-import Register from './components/Register'
+import Start from './comp/Start';
+import Question from './comp/Question';
+import End from './comp/End';
+import Modal from './comp/Modal';
+import quizData from './data/savol.json';
+import Register from './comp/Register'
 import { Route, Routes } from 'react-router-dom';
 
 let interval;
